@@ -109,7 +109,7 @@ class Matrix{
      */
     void add(Matrix m)throws MatrixMismatchException{
         if(this.rows != m.rows || this.cols != m.cols){
-            throw new MatrixMismatchException("Cannot perform addition. The size of the two matrices do not match each other")
+            throw new MatrixMismatchException("Cannot perform addition. The size of the two matrices do not match each other");
         }
         
         for(int i=0;i<this.rows;i++)
